@@ -1,9 +1,12 @@
+@import url(https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap);
 * {
     margin: 0;
     padding: 0;
     margin: auto;
 }
-
+body{ 
+    font-family: Rowdies;
+}
 /* Selectores
 1. De tipo etiqueta */
 
@@ -38,7 +41,8 @@ p {
 
 .texto-inicio {
     text-align: center;
-    font-family: sans-serif;
+    font-family: Rowdies;
+    font-size: 24px;
 
 }
 
