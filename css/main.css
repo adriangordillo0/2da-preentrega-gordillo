@@ -56,10 +56,10 @@ p {
 }
 
 /* 2. De tipo clase */
-al
+
 .img-logo-centro {
     display: flex;
-    height: 120px;
+    height: 50px;
     margin: 0;
 }
 
