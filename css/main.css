@@ -56,16 +56,19 @@ p {
 }
 
 /* 2. De tipo clase */
+al
 .img-logo-centro {
     display: flex;
     height: 120px;
     margin: 0;
 }
 
-.img-2 {
+.ali-1 {
     height: 320px;
 }
-
+.ali-2 {
+    height: 250px;
+}
 /* 3.De tipo ID */
 #arriba {
     background-color: aqua;
