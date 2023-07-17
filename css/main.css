@@ -3,7 +3,6 @@
 * {
     margin: 0;
     padding: 0;
-    margin: auto;
 }
 
 body {
@@ -66,9 +65,19 @@ p {
 .ali-1 {
     height: 250px;
 }
+
 .ali-2 {
     height: 250px;
 }
+
+.ali-3 {
+    height: 250px;
+}
+
+.ali-4 {
+    height: 250px;
+}
+
 /* 3.De tipo ID */
 #arriba {
     background-color: aqua;
@@ -110,6 +119,11 @@ p {
     background-color: aqua;
 }
 
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .list-tienda {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     list-style-type: circle;
@@ -127,20 +141,36 @@ p {
 .fb {
     background-color: rgb(32, 32, 128);
     color: aliceblue;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
 .insta {
     background-color: rgb(100, 24, 75);
     color: lightblue;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
 .twitter {
     background-color: lightblue;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
 .mail {
     background-color: brown;
     color: aliceblue;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
 footer {

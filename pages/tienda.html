@@ -2,69 +2,109 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../recursos/logo-gato.webp">
-    <link rel="stylesheet" href="../css/main.css">
-    <title>Tienda</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../recursos/logo-gato.webp">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/main.css">
+  <title>Tienda</title>
 </head>
 
 <body>
-    <header>
-        <h1>Tienda</h1>
-        <nav class="menu">
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="../index.html">CATLI</a>
+        <form class="d-flex justify-content-center" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pages/productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/tienda.html">Tienda</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Nosotros
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../pages/nosotros.html">Quienes somos?</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <h1>Tienda</h1>
+    <!-- <nav class="menu">
 
-            <!-- Lista no ordenada -->
+            Lista no ordenada
             <ul>
-                <!-- List Item / Item de lista -->
+                List Item / Item de lista
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="../pages/productos.html">Productos</a></li>
                 <li><a href="../pages/nosotros.html">Nosotros</a></li>
                 <li><a href="../pages/contacto.html">Contacto</a></li>
             </ul>
-        </nav>
-    </header>
-    <main> <!-- Lista ordenada -->
-        <h2>Porque comprar en CATLI?</h2>
-        <li class="list-tienda">Un alimento premium es lo mejor y nosotros lo tenemos</li>
-        <li class="list-tienda">Trabajamos con las mejores marcas</li>
-        <li class="list-tienda">Compralo llenando aca:</li>
-        </ol>
+        </nav> -->
+  </header>
+  <main> <!-- Lista ordenada -->
+    <h2>Porque comprar en CATLI?</h2>
+    <li class="list-tienda">Un alimento premium es lo mejor y nosotros lo tenemos</li>
+    <li class="list-tienda">Trabajamos con las mejores marcas</li>
+    <li class="list-tienda">Compralo llenando aca:</li>
+    </ol>
 
-        <form class="formulario" action="#" method="get" enctype="text/plain">
-            <input type="text" placeholder="Nombre" name="Nombre">
-            <br>
-            <br>
-            <input type="number" placeholder="Edad" name="Edad">
-            <br>
-            <br>
-            <input type="email" placeholder="Fulanito@mail.com">
-            <br>
-            <br>
-            <input type="date">
-            <br>
-            <br>
-            <input type="submit" value="Comprar">
-        </form>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores iure rem nulla in illo necessitatibus
-            quasi molestias vel nam, dicta magnam sit, eligendi maiores eaque quia beatae distinctio animi ipsam. Nam
-            omnis ut ratione repellendus sed eaque mollitia quod, at minima corporis sunt ducimus beatae natus accusamus
-            repellat et, nesciunt laboriosam nulla magnam aliquam. Eaque a delectus commodi adipisci culpa corporis iure
-            officiis, alias numquam similique? Deleniti error mollitia doloremque reiciendis provident praesentium
-            voluptatibus odit nobis est, veritatis voluptatem rem tempore assumenda quo ut placeat quia fugit porro.
-            Eos, cupiditate vero! Atque, eum dicta eos fugiat voluptatem saepe illum non!
-        </p>
-    </main>
+    <form class="formulario" action="#" method="get" enctype="text/plain">
+      <input type="text" placeholder="Nombre" name="Nombre">
+      <br>
+      <br>
+      <input type="number" placeholder="Edad" name="Edad">
+      <br>
+      <br>
+      <input type="email" placeholder="Fulanito@mail.com">
+      <br>
+      <br>
+      <input type="date">
+      <br>
+      <br>
+      <input type="submit" value="Comprar">
+    </form>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores iure rem nulla in illo necessitatibus
+      quasi molestias vel nam, dicta magnam sit, eligendi maiores eaque quia beatae distinctio animi ipsam. Nam
+      omnis ut ratione repellendus sed eaque mollitia quod, at minima corporis sunt ducimus beatae natus accusamus
+      repellat et, nesciunt laboriosam nulla magnam aliquam. Eaque a delectus commodi adipisci culpa corporis iure
+      officiis, alias numquam similique? Deleniti error mollitia doloremque reiciendis provident praesentium
+      voluptatibus odit nobis est, veritatis voluptatem rem tempore assumenda quo ut placeat quia fugit porro.
+      Eos, cupiditate vero! Atque, eum dicta eos fugiat voluptatem saepe illum non!
+    </p>
+  </main>
 
+  <footer>
     <footer>
-        <footer>
-            <div class="container">
-                <p>© 2023 Mi Sitio. Todos los derechos reservados.</p>
-            </div>
-        </footer>
+      <div class="container">
+        <p>© 2023 Mi Sitio. Todos los derechos reservados.</p>
+      </div>
     </footer>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

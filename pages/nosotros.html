@@ -16,18 +16,22 @@
   <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html">CATLI</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <a class="navbar-brand" href="../index.html">CATLI</a>
+        <form class="d-flex justify-content-center" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 justify-content-end">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+              <a class="nav-link active" aria-current="page" href="../pages/productos.html">Productos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="tienda.html">Tienda</a>
+              <a class="nav-link" href="../pages/tienda.html">Tienda</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -35,17 +39,13 @@
                 Nosotros
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="nosotros.html">Quienes somos?</a></li>
+                <li><a class="dropdown-item" href="../pages/nosotros.html">Quienes somos?</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./contacto.html">Contacto</a>
+              <a class="nav-link" href="../pages/contacto.html">Contacto</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
         </div>
       </div>
     </nav>
